@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      name: demo
+      profile: development
+      uri: http://localhost:8888
