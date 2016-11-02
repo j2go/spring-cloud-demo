@@ -1,0 +1,8 @@
+server:
+  port: 7777
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+provides: spring-platform-netflix-core, eureka-client
