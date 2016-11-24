@@ -1,0 +1,19 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/stiangao/cloud-config.git
+          clone-on-start: true
+security:
+  user:
+    password: db1ab002-1fba-476d-a421-22113355
+
+encrypt:
+  key-store:
+    alias: mytestkey
+    secret: my-k34-s3cr3t
+    password: my-s70r3-s3cr3t
+    location: classpath:/config-server.jks

@@ -1,6 +1,8 @@
+server:
+  port: 8851
 spring:
-  cloud:
-    config:
-      name: demo
-      profile: development
-      uri: http://localhost:8888
+  application:
+    name: clientA
+
+hello:
+  answer: go for it!

@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      profile: prod
+      label: master
+      name: client
+      password: db1ab002-1fba-476d-a421-22113355
+      username: user
